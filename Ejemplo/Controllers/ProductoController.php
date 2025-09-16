@@ -8,12 +8,12 @@ class ProductoController{
 
         $todos_los_productos = $producto->conseguirTodos();
 
-        require_once 'views/productos/mostrar-todos.php';
+        require_once 'Views/Productos/mostrar-todos.php';
 
     }
 
     public function crear(){
-        require_once 'views/productos/crear.php';
+        require_once 'Views/Productos/crear.php';
     }
     
 }

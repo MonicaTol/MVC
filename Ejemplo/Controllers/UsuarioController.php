@@ -10,10 +10,10 @@ class UsuarioController{
 
         $todos_los_usuarios = $usuario->conseguirTodos();
 
-        require_once './views/usuarios/mostrar-todos.php';
+        require_once './Views/Usuarios/mostrar-todos.php';
     }
 
     public function crear(){
-        require_once './views/usuarios/crear.php';
+        require_once './Views/Usuarios/crear.php';
     }
 }
